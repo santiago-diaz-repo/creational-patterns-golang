@@ -1,1 +1,1 @@
-# creational-patterns-golang
+# design-patterns-golang
