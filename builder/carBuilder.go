@@ -14,10 +14,10 @@ type carBuilder struct {
 
 func (cb carBuilder) Build() Car {
 	return car{
-			color: cb.car.color,
-			brand: cb.car.brand,
-			typeC: cb.car.typeC,
-			price: cb.car.price,
+		color: cb.car.color,
+		brand: cb.car.brand,
+		typeC: cb.car.typeC,
+		price: cb.car.price,
 	}
 }
 
@@ -26,7 +26,7 @@ func (cb carBuilder) Color(color string) CarBuilder {
 	return cb
 }
 
-func (cb carBuilder) Brand(brand string) CarBuilder{
+func (cb carBuilder) Brand(brand string) CarBuilder {
 	cb.car.brand = brand
 	return cb
 }

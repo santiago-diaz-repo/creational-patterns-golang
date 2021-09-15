@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_Builder(t *testing.T){
+func Test_Builder(t *testing.T) {
 	car := carBuilder{}.Color("red").Brand("something").Build()
 	fmt.Println(car)
 
